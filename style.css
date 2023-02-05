@@ -1,0 +1,38 @@
+*{
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+
+}
+h2{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h3{
+    bottom:1px;
+    position:fixed;
+    padding-left: 7px;
+    
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    height: 600px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% , -50%);
+
+    grid-gap:6px;
+    cursor: pointer;
+    
+  
+}
+.grid img{
+border-radius: 22px;
+    border: 1px solid rgb(60, 60, 60); 
+} 
+  
